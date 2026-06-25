@@ -10,7 +10,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_URI = "mongodb+srv://Warda:12345@cluster0.cpezv.mongodb.net/Hospital?retryWrites=true&w=majority";
+const MONGO_URI = "mongodb+srv://Warda:yourdbpassword@cluster0.cpezv.mongodb.net/Hospital?retryWrites=true&w=majority";
 
 // Connect to MongoDB 
 mongoose.connect(MONGO_URI)
